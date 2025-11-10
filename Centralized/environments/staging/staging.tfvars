@@ -1,0 +1,13 @@
+environment          = "Staging"
+location             = "East US"
+resource_group_name  = "stg-rg"
+vnet_name            = "stg-vnet"
+address_space        = ["10.1.0.0/16"]
+subnet_name          = "stg-subnet"
+subnet_prefixes      = ["10.1.1.0/24"]
+public_ip_name       = "stg-ip"
+nic_name             = "stg-nic"
+vm_name              = "stg-vm"
+vm_size              = "Standard_B2ms"
+admin_username       = "adminuser"
+ssh_public_key_path  = "~/.ssh/id_rsa.pub"

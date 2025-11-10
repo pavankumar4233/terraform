@@ -1,5 +1,6 @@
 resource_group_name  = "prod-rg"
 location             = "East US"
+environment          = "Production"
 virtual_network_name = "prod-vnet"
 subnet_name          = "prod-subnet"
 public_ip_name       = "prod-ip"
