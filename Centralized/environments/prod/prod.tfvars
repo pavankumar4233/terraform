@@ -1,8 +1,10 @@
-resource_group_name  = "prod-rg"
-location             = "East US"
 environment          = "Production"
-virtual_network_name = "prod-vnet"
+location             = "East US"
+resource_group_name  = "prod-rg"
+vnet_name            = "prod-vnet"
+address_space        = ["10.0.0.0/16"]
 subnet_name          = "prod-subnet"
+subnet_prefixes      = ["10.0.1.0/24"]
 public_ip_name       = "prod-ip"
 nic_name             = "prod-nic"
 vm_name              = "prod-vm"

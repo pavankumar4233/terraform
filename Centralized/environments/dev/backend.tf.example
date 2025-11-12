@@ -1,0 +1,9 @@
+# backend.tf (sample) — uncomment/configure to enable Azure Storage remote state
+# terraform {
+#   backend "azurerm" {
+#     resource_group_name  = "tfstate-rg"
+#     storage_account_name = "tfstateacct001"
+#     container_name       = "tfstate"
+#     key                  = "dev/terraform.tfstate"
+#   }
+# }
